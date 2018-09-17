@@ -116,6 +116,7 @@ Please enter yout number again.
         allocIndex += num
     elif len(memory) >= 1:
 
+
         for i in range(len(memory) - 1):
             if memory[i + 1][0] - memory[i][1] != memory[i][0] and num <= memory[i + 1][0] - (
                     memory[i][1] + memory[i][0]):
