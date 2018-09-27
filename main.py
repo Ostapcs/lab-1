@@ -1,4 +1,3 @@
-from functools import reduce
 # global variables
 
 memorySize = 0
@@ -8,7 +7,7 @@ memory = []
 print(str(13 // 10) + str(13 % 10))
 
 
-# розібратися в алокейті коли 10 5 і треба вставити 0 10
+
 
 def showHelpMessage():
     print("""
@@ -227,7 +226,6 @@ Please enter your number again.
         else:
             sum = 0
             # sum += num
-            # зробити норм перевірку на вихід за масив
             for j in memory:
                 sum += j[1]
 
